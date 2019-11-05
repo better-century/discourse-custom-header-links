@@ -1,9 +1,9 @@
 Custom_header_links:
   type: list
   default: >
-    Home, , https://beta.bettercentury.org, vdm,self , remove
-    |About Us, , https://beta.bettercentury.org/about, vdm, self, keep
-    |Partnerships, , https://beta.bettercentury.org/partnerships, vdm, self, keep
-    |News, , https://beta.bettercentury.org/news, vdm, self, keep"
+    Home, , http://beta.bettercentury.org, vdm,self , remove
+    |About Us, , http://beta.bettercentury.org/about, vdm, self, keep
+    |Partnerships, , http://beta.bettercentury.org/partnerships, vdm, self, keep
+    |News, , http://beta.bettercentury.org/news, vdm, self, keep"
   description:
     en: 'Comma delimited in this order: link text, link title, URL, view, target, hide on scroll<br><b>Link text:</b> The text for the link<br><b>Link title:</b> the text that shows when the link is hovered<br><b>URL:</b> The path for the link (can be relative)<br><b>View:</b> vdm = desktop and mobile, vdo = desktop only, vmo = mobile only<br><b>Target:</b> blank = opens in a new tab, self = opens in the same tab<br><b>Hide on scroll:</b> remove = hides the link when the title is expanded on topic pages keep = keeps the link visible even when the title is visible on topic pages'
