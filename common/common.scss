@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "common/foundation/variables";
 
 $bc-off-white: #FFFEF4;
@@ -28,4 +29,15 @@ $bc-off-white: #FFFEF4;
 .desktop-view .vmo,
 .mobile-view .vdo {
   display: none !important;
+}
+
+@if $links_position == left {
+  .custom-header-links {
+    margin-left: 1em;
+  }
+  .hide-menus {
+    .custom-header-links {
+      display: none;
+    }
+  }
 }
